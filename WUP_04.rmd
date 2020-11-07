@@ -84,6 +84,6 @@ plot(TukeyHSD(model1),las=2)
   
 
 # Discussion and Conclusion
-
+I concluded that Graduate school has the highest mean of 10.0 compared to the other schools that have a lower mean .I Concluded that Graduate school and High school are different statistically ,Light high school and Graduate school are also statistically  different. 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->

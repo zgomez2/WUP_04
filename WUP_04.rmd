@@ -79,7 +79,10 @@ summary.aov(model1)
 par(mar = c(3, 11.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
+    
+   Light high school and Graduate school are different because they don't cross 0 .  High school and Graduate school differ from the rest of the other schools . 
   
+
 # Discussion and Conclusion
 
 

@@ -59,9 +59,12 @@ basicCN + geom_boxplot()
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
   
   
-```{r}  
+
+
+```{r}
 favstats(WORDSUM~DEGREE,data=GSSdata)
 ```
+Graduate school has the highest mean of 10.0,then Junior college has a mean of 9.9,followed by Bachelor which has a mean of 9.2 they seem close to each other .High school and Light high school have a lower mean ,high school has 8.2 and Light high school has a mean of 7.7.
 
 ## Inferential Results
 
@@ -76,6 +79,8 @@ summary.aov(model1)
 par(mar = c(3, 11.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
+  
 # Discussion and Conclusion
+
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->

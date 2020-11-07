@@ -48,7 +48,9 @@ basicCN <- ggplot(GSSdata,aes(x=DEGREE,y=WORDSUM))
 ```{r}
 basicCN + geom_boxplot()
 ```
+    
   
+   Graduate and the High school box dosen't bump into the graduate box but it does bump into the bachelor box .The high school box is different to the Graduate school they don't seem to bump into each other. It looks like we are going to have differences in the boxes .
 
   
 

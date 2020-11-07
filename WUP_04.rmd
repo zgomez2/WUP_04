@@ -79,11 +79,11 @@ summary.aov(model1)
 par(mar = c(3, 11.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
-    
+ 
+ p value is 0.000236   
    Light high school and Graduate school are different because they don't cross 0 .  High school and Graduate school differ from the rest of the other schools . 
   
 
 # Discussion and Conclusion
-I concluded that Graduate school has the highest mean of 10.0 compared to the other schools that have a lower mean .I Concluded that Graduate school and High school are different statistically ,Light high school and Graduate school are also statistically  different. 
-
+I concluded that Graduate school has the highest mean of 10.0 compared to the other schools that have a lower mean .I Concluded that Graduate school and High school are different statistically ,Light high school and Graduate school are also statistically  different. The p value is less 0.000236 which means that out of 10000 times we will get a result that the null hypothesis is true .I don't believe the null hypothesis is true because it happens so  infrequently.So we reject the null hypothesis.  To further explain weare saying the result of a turkeyHSD test shows that the wordsum test between light high school and graduate school are different also high school and graduate school .There is no other significant differences than those two stated .
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
